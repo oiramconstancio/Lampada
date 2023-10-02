@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang = "pt-br">
+<head>
+	<meta charset = "UTF-8">
+	<meta content = "width=device-width, initial-scale=1.0" name = "viewport">
+	<title>Aula4-atividade3.html</title>
+	<style>
+		body {
+			background-color: black;
+			text-align: center;
+		}
+		
+		h1 {
+			color: white;
+			text-align: center;
+		}
+		
+		button:hover {
+			background-color: blue;
+			color: yellow;
+			cursor: pointer;
+		}
+	</style>
+</head>
+<body>
+	
+	<header>
+		<h1>Javascript - Lampada</h1>
+	</header>
+	
+	<main>
+		<img id = "lampada" src = "desligada.png">
+		<hr>
+		<button id = "on" onclick = "on()">LIGAR</button>
+		<button id = "off" onclick = "off()">DESLIGAR</button>
+		<button id = "piscar" onclick = "piscar()">PISCAR</button>
+		<button id = "quebrar" onclick = "quebrar()">QUEBRAR</button>
+	</main>
+	<script src = "script.js"></script>
+</body>
+</html>
